@@ -1,5 +1,4 @@
-/datacenter/*
-/dcenter/*
 /myvenv/*
-/project/*
-manage.py
+/project/.env
+/project/__pycache__
+/datacenter/__pycache__
