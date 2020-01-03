@@ -11,14 +11,14 @@
 На данный момент в настройках Вашей системы должно быть разрешено менять расширение файлов. 
 Создайте текстовый файл с названием ".env". С помощью редактора кода Sublime (www.sublimetext.com) откройте файл ".env" и задайте значения параметров по примеру, показанному ниже, подставив свои значения.  
 
-`ENGINE=django.db.backends.postgresql_psycopg2`  
-`HOST=checkpoint.devman.org`  
-`PORT=5434`  
-`NAME=checkpoint`  
-`USER=guard`  
-`PASSWORD=osim5`  
-`SECRET_KEY=REPLACE_ME`  
-`DEBUG=False`  
+```ENGINE=django.db.backends.postgresql_psycopg2
+HOST=checkpoint.devman.org
+PORT=5434
+NAME=checkpoint
+USER=guard
+PASSWORD=osim5
+SECRET_KEY=REPLACE_ME
+DEBUG=False```
 
 Измените значения `HOST`, `PORT`, `USER`, `PASSWORD`, `SECRET_KEY` на те, которые выдал менеджер. Значения `ENGINE`, `NAME` и `DEBUG` оставьте без изменений. Закройте файл .env с сохранением изменений.
 
