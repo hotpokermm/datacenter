@@ -2,3 +2,4 @@
 /project/.env
 /project/__pycache__
 /datacenter/__pycache__
+/dcenter/*
