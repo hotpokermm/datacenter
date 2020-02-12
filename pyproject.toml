@@ -4,7 +4,7 @@ authors = ["Your Name <you@example.com>"]
 name = "datacenter"
 version = "0.0.0"
 [tool.poetry.dependencies]
-django = "==1.11.21"
+django = "==1.11.28"
 psycopg2 = "==2.7.3.1"
 python = "*"
 pytz = "==2017.2"
